@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">   
+    <title>Profile Builder-CJ</title>
+</head>
+<body>
+        <div class="container">
+            <h1>Profile Builder App</h1>
+            <form>
+                <div class="form-group">
+                  <label for="fullName">Full Name</label>
+                  <input type="text" class="form-control" id="fullName" placeholder="Enter Full Name">
+                 </div>
+                 <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter Email">
+                   </div>
+                <div class="form-group">
+                    <label for="profession">Profession</label>
+                    <input type="text" class="form-control" id="profession" placeholder="Enter Profession">
+                   </div>   
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+              <hr/>
+              <table class="table table-striped mt-1">
+                <thead>
+                  <tr>
+                    <th scope="col">Full Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Profession</th>
+                    <th scope="col">Edit/Remove</th>
+                  </tr>
+                </thead>
+                <tbody id="profile-list">
+                  <!-- <tr>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td><i class="fa fa-trash"></i></td>
+                  </tr> -->
+                  </tbody>
+              </table>
+        </div>
+    <script src="src/index.js"></script>
+    <script src="https://kit.fontawesome.com/fa0e2f43c7.js"></script>
+</body>
+</html>
